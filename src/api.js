@@ -1,4 +1,4 @@
-const API = 'https://nest-js-basic-api.onrender.com';
+const API = '/api';
 
 export async function api(path, { token, ...opt } = {}) {
   const res = await fetch(API + path, {
